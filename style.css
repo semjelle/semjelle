@@ -19,13 +19,13 @@ header {
   align-items: center;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: auto;
   font-weight: 400;
-  margin: 5px;
+  margin: 3px;
 }
 .logo-text {
-  padding-top: 1em;
+  padding-top: 2.4em;
   padding-left: 3vh;
   font-size: 20px;
   text-decoration: none;
@@ -38,6 +38,7 @@ header {
 }
 .logo-container {
   flex: 1;
+  margin-left: -50px;
 }
 nav {
   flex: 2;
@@ -80,9 +81,9 @@ nav {
   padding: 0px 0px 0px 0px;
 }
 .cta-select {
-  border: 2px solid #fbc406;
+  border: 2px solid #2a0194;
   background: transparent;
-  color: #fbc406;
+  color: #2a0194;
   width: 150px;
   height: 50px;
   cursor: default;
@@ -90,7 +91,7 @@ nav {
   border-radius: 4px;
 }
 .cta-add {
-  background: #fbc406;
+  background: #2a0194;
   color: #ffffff;
   width: 150px;
   height: 50px;
@@ -121,13 +122,18 @@ nav {
 .mid-circle {
   display: none;
 }
-.beer-select {
+.imac {
+  margin-top: 10px;
+  width: 80%;
+  height: auto;
+}
+.imac-show {
   display: flex;
-  bottom: 10%;
+  bottom: 3%;
   width: 15%;
   justify-content: space-around;
   position: absolute;
-  right: 28.5%;
+  right: 23%;
 }
 @keyframes drop {
   0% {
@@ -155,7 +161,7 @@ nav {
     font-size: 18px;
     text-align: center;
   }
-  .beer-select {
+  .imac-show {
     bottom: 5vh;
     right: 50%;
     left: 36%;
